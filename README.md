@@ -1,5 +1,7 @@
 # Folio
 
+[![CI](https://github.com/amin-abbasiy/folio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/amin-abbasiy/folio/actions/workflows/ci.yml)
+
 **A little room to think.** A simple, offline notes app for Linux.
 
 ![Folio's light interface](docs/screenshot.png)
