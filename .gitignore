@@ -1,0 +1,70 @@
+# Build output and local archive contents (publish source only).
+/target/
+/bin/
+/dist/
+/TRANSFER.txt
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Personal local files at any directory depth.
+*_local
+*_local.*
+
+# Machine-specific Cargo build settings.
+/.cargo/config.toml
+
+# Local agent instructions and archived container test reports.
+/AGENTS.md
+/docs/VERIFICATION.md
+
+# Personal notebooks, backups, exports, and SQLite journals.
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+notebook.lock
+backups/
+exports/
+notebooks/
+
+# Local secrets and credentials. Never commit real values in example files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.netrc
+credentials.json
+.cargo/credentials
+.cargo/credentials.toml
+.ssh/
+.aws/
+secrets/
+.secrets/
+
+# Test artifacts, editor files, and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.DS_Store
+/artifacts/
+/test-results/
+*.png
+!assets/icon.png
+!docs/screenshot.png
+!docs/screenshot-dark.png

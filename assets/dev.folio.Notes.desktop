@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Folio
+GenericName=Notes
+Comment=A quiet place for your thoughts. Local notes, no account needed.
+Exec=folio
+Icon=dev.folio.Notes
+Terminal=false
+Categories=Office;Utility;TextEditor;
+Keywords=notes;notebook;markdown;offline;private;
+StartupWMClass=folio
